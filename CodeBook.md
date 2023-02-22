@@ -16,19 +16,19 @@ finaldataset: This tibble contains the tidy dataset with the mean of each select
 
 ## Processing Steps The following processing steps are performed in the script:
 
-1. Loading the tidyverse package which will be required.
+1. Load the tidyverse package which is required.
 2. Download and unzip the dataset from the UCI Machine Learning Repository.
-3. Read in the training and test feature data from "X_train.txt" and "X_test.txt".
-4. Read in the feature names from "features.txt".
+3. Read in the training and test experimental data from "X_train.txt" and "X_test.txt".
+4. Read in the variable names from "features.txt".
 5. Clean and format the experimental data into a tidy format using the "tidyObs()" custom function.
-6. Create a matrix containing the tidy feature data for the training and test sets.
+6. Create a matrix containing the tidy experimental data for the training and test sets and giving it appropriate variable names.
 7. Read in the activity labels from "activity_labels.txt".
 8. Read in the activity numbers from "y_train.txt", "y_test.txt" and the subject data from "subject_train.txt", and "subject_test.txt".
 9. Clean and format the activity and subject data.
-10. Combine the feature data, activity data, and subject data into a single dataframe.
-11. Select only the mean and standard deviation columns and the activity and subject columns.
+10. Combine the experimental data, activity data, and subject data into a single dataframe.
+11. Select only the variables which represent means or standard deviations of original measurements.
 12. Group the dataframe by subject and activity and calculate the mean of each variable.
-13. Return the final tidy dataset with the operations described in step 11 and 12.
+13. Return the final tidy data set with the operations described in step 11 and 12.
 
 ## Libraries Used 
 tidyverse
@@ -39,8 +39,8 @@ tidyObs() : This function takes in a vector of strings, removes the leading and 
 ## Variables Used fileurl : The URL of the dataset zipfile.
 - traindir : The directory containing the training data.
 - testdir : The directory containing the test data.
-- trainingset : The raw training feature data.
-- testset : The raw test feature data.
+- trainingset : The raw training experimental data.
+- testset : The raw test experimental data.
 - variablenames : The names of the features.
 - activity_labels : The labels for the activities.
 - activity_test : The activity labels for the test set.
