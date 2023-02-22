@@ -37,18 +37,18 @@ tidyverse
 tidyObs() : This function takes in a vector of strings, removes the leading and trailing whitespaces, separates values by the remaining whitespaces and returns a list of numeric vectors.
 
 ## Variables Used fileurl : The URL of the dataset zipfile.
-traindir : The directory containing the training data.
-testdir : The directory containing the test data.
-trainingset : The raw training feature data.
-testset : The raw test feature data.
-variablenames : The names of the features.
-activity_labels : The labels for the activities.
-activity_test : The activity labels for the test set.
-activity_training : The activity labels for the training set.
-subject_test : The subject IDs for the test set.
-subject_train : The subject IDs for the training set.
-tidytrainingtibble : The tidy training dataset in a tibble format.
-tidytesttibble : The tidy test dataset in a tibble format.
-merged : The merged tidy dataset in a tibble format.
-mergedselected : The subset of the merged dataset containing only the mean and standard deviation columns, as well as the activity and subject columns.
-finaldataset : The final tidy dataset containing the mean of each feature for each activity and each subject.
+- traindir : The directory containing the training data.
+- testdir : The directory containing the test data.
+- trainingset : The raw training feature data.
+- testset : The raw test feature data.
+- variablenames : The names of the features.
+- activity_labels : The labels for the activities.
+- activity_test : The activity labels for the test set.
+- activity_training : The activity labels for the training set.
+- subject_test : The subject IDs for the test set.
+- subject_train : The subject IDs for the training set.
+- tidytrainingtibble : The tidy training dataset in a tibble format.
+- tidytesttibble : The tidy test dataset in a tibble format.
+- merged : The merged tidy dataset in a tibble format.
+- mergedselected : The subset of the merged dataset containing only the mean and standard deviation columns, as well as the activity and subject columns.
+- finaldataset : The final tidy dataset containing the mean of each feature for each activity and each subject.
