@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 # Codebook for "run_analysis.R"
 
 ## Objective The purpose of this script is to tidy and reshape the "Human Activity Recognition Using Smartphones" dataset, so that it can be used for analysis.
@@ -36,9 +30,11 @@ finaldataset: This tibble contains the tidy dataset with the mean of each select
 12.Group the dataframe by subject and activity and calculate the mean of each variable.
 13.Return the final tidy dataset with the operations described in step 11 and 12.
 
-## Libraries Used tidyverse
+## Libraries Used 
+tidyverse
 
-## Custom Functions Used tidyObs() : This function takes in a vector of strings, removes the leading and trailing whitespaces, separates values by the remaining whitespaces and returns a list of numeric vectors.
+## Custom Functions Used 
+tidyObs() : This function takes in a vector of strings, removes the leading and trailing whitespaces, separates values by the remaining whitespaces and returns a list of numeric vectors.
 
 ## Variables Used fileurl : The URL of the dataset zipfile.
 traindir : The directory containing the training data.
