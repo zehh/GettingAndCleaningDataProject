@@ -16,19 +16,19 @@ finaldataset: This tibble contains the tidy dataset with the mean of each select
 
 ## Processing Steps The following processing steps are performed in the script:
 
-1.Loading the tidyverse package which will be required.
-2.Download and unzip the dataset from the UCI Machine Learning Repository.
-3.Read in the training and test feature data from "X_train.txt" and "X_test.txt".
-4.Read in the feature names from "features.txt".
-5.Clean and format the experimental data into a tidy format using the "tidyObs()" custom function.
-6.Create a matrix containing the tidy feature data for the training and test sets.
-7.Read in the activity labels from "activity_labels.txt".
-8.Read in the activity numbers from "y_train.txt", "y_test.txt" and the subject data from "subject_train.txt", and "subject_test.txt".
-9.Clean and format the activity and subject data.
-10.Combine the feature data, activity data, and subject data into a single dataframe.
-11.Select only the mean and standard deviation columns and the activity and subject columns.
-12.Group the dataframe by subject and activity and calculate the mean of each variable.
-13.Return the final tidy dataset with the operations described in step 11 and 12.
+1. Loading the tidyverse package which will be required.
+2. Download and unzip the dataset from the UCI Machine Learning Repository.
+3. Read in the training and test feature data from "X_train.txt" and "X_test.txt".
+4. Read in the feature names from "features.txt".
+5. Clean and format the experimental data into a tidy format using the "tidyObs()" custom function.
+6. Create a matrix containing the tidy feature data for the training and test sets.
+7. Read in the activity labels from "activity_labels.txt".
+8. Read in the activity numbers from "y_train.txt", "y_test.txt" and the subject data from "subject_train.txt", and "subject_test.txt".
+9. Clean and format the activity and subject data.
+10. Combine the feature data, activity data, and subject data into a single dataframe.
+11. Select only the mean and standard deviation columns and the activity and subject columns.
+12. Group the dataframe by subject and activity and calculate the mean of each variable.
+13. Return the final tidy dataset with the operations described in step 11 and 12.
 
 ## Libraries Used 
 tidyverse
